@@ -364,20 +364,38 @@
 }
 
 .ganre_orange{
-  background: linear-gradient(127.83deg, #F2C94C 8.44%, #F29A4A 91.36%);
+  background: linear-gradient(127.83deg, rgba(242, 201, 71, 0.8) 8.44%, rgba(242, 154, 74, 0.8) 91.36%);  
 }
 
+.ganre_orange:hover{
+  background: linear-gradient(127.83deg, rgba(242, 201, 71, 1) 8.44%, rgba(242, 154, 74, 1) 91.36%);  
+}
+
+
 .ganre_pink{
-  background: linear-gradient(127.83deg, #F2994A 8.44%, #EB5757 91.36%);
+  background: linear-gradient(127.83deg, rgba(242, 153, 74, 0.8) 8.44%, rgba(235, 87, 87, 0.8) 91.36%);
+}
+
+.ganre_pink:hover{
+  background: linear-gradient(127.83deg, rgba(242, 153, 74, 1) 8.44%, rgba(235, 87, 87, 1) 91.36%);
 }
 
 .ganre_blue{
-  background: linear-gradient(127.83deg, #56CCF2 8.44%, #2F80ED 91.36%);
+  background: linear-gradient(127.83deg, rgba(86, 204, 242, 0.8) 8.44%, rgba(47, 128, 237, 0.8) 91.36%);
+}
+
+.ganre_blue:hover{
+  background: linear-gradient(127.83deg, rgba(86, 204, 242, 1) 8.44%, rgba(47, 128, 237, 1) 91.36%);
 }
 
 .ganre_grey{
-  background: linear-gradient(127.83deg, #828282 8.44%, #333333 91.36%);
+  background: linear-gradient(127.83deg, rgba(130, 130, 130, 0.8) 8.44%, rgba(130, 130, 130, 0.8) 91.36%);
 }
+
+.ganre_grey:hover{
+  background: linear-gradient(127.83deg, rgba(130, 130, 130, 1) 8.44%, rgba(130, 130, 130, 1) 91.36%);
+}
+
 .ganre__smile{
   position: absolute;
   width: 48px;
