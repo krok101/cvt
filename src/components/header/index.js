@@ -12,7 +12,6 @@ class Header extends Component{
   }
 
   logIn(){
-    console.log("++++++");
     this.props.openModal(true)
   }
 

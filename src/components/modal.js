@@ -16,11 +16,6 @@ class Modal extends Component{
       let wrapCheckbox = document.getElementById('remember-wrap')
       this.checked ? wrapCheckbox.classList.add("active") : wrapCheckbox.classList.remove("active");
     })
-
-    let el = document.querySelector('.form-login__input');
-    el.addEventListener('on', function(){
-      console.log(el);
-    })
   }
 
   componentWillUnmount(){
